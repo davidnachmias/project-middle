@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>SV-shop</h1><br>
+        <label for="emailInput" class="signInLabels">Email address</label><br>
+        <input id="emailInput" class="signInInputs" type="email" placeholder="Enter your email"><br>
+        <label for="passwordInput" class="signInLabels">Password</label><br>
+        <input id="passwordInput" class="signInInputs" type="password" placeholder="Enter your password"><br>
+        <div id="buttonsDiv">
+            <button onclick="sendData()" id="signInBtn" class="directionBtns">Sign in</button>
+            <button onclick="sendToRegiseration()" id="signUpBtn" class="directionBtns">Sign up</button>
+            <script src="home.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

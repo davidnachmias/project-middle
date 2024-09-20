@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>SV-shop</h1><br>
+        <div id="serchOptionDiv">
+            <label for="serchOptions"></label>
+            <select id="serchOptions" name="serchOptions">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+            <button id="sortBtn">Sort</button><br>
+        </div>
+        <input id="filterInput" type="text" placeholder="Product name"><br>
+        <div id="products"></div>
+        <button onclick="sendToPayment()" id="purchaseBtn">Purchase</button>
+    </div>
+    <script src="products.js"></script>
+</body>
+
+</html>
